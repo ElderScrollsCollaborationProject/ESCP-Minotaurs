@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<Defs>
+
+    <RulePackDef>
+        <defName>ESCP_Minotaur_Namer_Male</defName>
+        <rulePack>
+            <rulesStrings>
+                <li>r_name->[ESCP_Minotaur_Names_Male] [ESCP_Minotaur_Names_Last]</li>
+            </rulesStrings>
+            <rulesFiles>
+                <li>ESCP_Minotaur_Names_Male->Names/ESCP_Minotaur_Names_Male</li>
+                <li>ESCP_Minotaur_Names_Last->Names/ESCP_Minotaur_Names_Last</li>
+            </rulesFiles>
+        </rulePack>
+    </RulePackDef>
+    <RulePackDef>
+        <defName>ESCP_Minotaur_Namer_Female</defName>
+        <rulePack>
+            <rulesStrings>
+                <li>r_name->[ESCP_Minotaur_Names_Female] [ESCP_Minotaur_Names_Last]</li>
+            </rulesStrings>
+            <rulesFiles>
+                <li>ESCP_Minotaur_Names_Female->Names/ESCP_Minotaur_Names_Female</li>
+                <li>ESCP_Minotaur_Names_Last->Names/ESCP_Minotaur_Names_Last</li>
+            </rulesFiles>
+        </rulePack>
+    </RulePackDef>
+
+</Defs>

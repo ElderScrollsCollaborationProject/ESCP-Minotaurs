@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<Defs>
+
+    <XenotypeDef>
+        <defName>ESCP_Xenotype_Minotaur</defName>
+        <label>minotaur</label>
+        <iconPath>UI/Icons/Xenotypes/Hussar</iconPath>
+        <inheritable>true</inheritable>
+        <description>The bull-headed children of Morihaus. Minotaurs are rare even in the wilds of Cyrodiil where most of them live, and the few who settle among other races are watched closely. They are enormously strong, need a great deal of food and fly into rages that are hard to stop.</description>
+        <descriptionShort>Rare, bull-headed and dangerous when angered.</descriptionShort>
+        <genes>
+            <li>ESCP_Gene_Minotaur_Form</li>
+            <li>ESCP_Gene_Minotaur_Blood</li>
+            <li>ESCP_Gene_Minotaur_HideBrown</li>
+            <li>ESCP_Gene_Minotaur_HideBlack</li>
+            <li>ESCP_Gene_Minotaur_HideTan</li>
+            <li>ESCP_Gene_Minotaur_HideGray</li>
+            <li>ESCP_Gene_Minotaur_HideRed</li>
+        </genes>
+        <modExtensions>
+            <li Class="ESCP.Core.XenotypeExtension_Race">
+                <pawnKind>ESCP_Pawnkind_Minotaur_Brute</pawnKind>
+            </li>
+        </modExtensions>
+    </XenotypeDef>
+
+</Defs>

@@ -1,0 +1,462 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<Defs>
+
+    <ThingDef Name="ESCP_MinotaurApparelBase" ParentName="ApparelMakeableBase" Abstract="True">
+        <techLevel>Neolithic</techLevel>
+        <tradeability>Sellable</tradeability>
+        <thingCategories>
+            <li>Apparel</li>
+        </thingCategories>
+        <apparel>
+            <tags>
+                <li>ESCP_Minotaur_Apparel</li>
+            </tags>
+            <defaultOutfitTags>
+                <li>Worker</li>
+                <li>Soldier</li>
+            </defaultOutfitTags>
+        </apparel>
+        <modExtensions>
+            <li Class="ESCP.Core.XenotypeExtension">
+                <whitelistedXenotypes>
+                    <li>ESCP_Xenotype_Minotaur</li>
+                </whitelistedXenotypes>
+            </li>
+        </modExtensions>
+    </ThingDef>
+
+    <ThingDef ParentName="ESCP_MinotaurApparelBase">
+        <defName>ESCP_Apparel_Minotaur_ShoulderStone</defName>
+        <label>stone pauldron</label>
+        <description>A slab of rock lashed to one shoulder with rawhide. Crude, heavy and surprisingly good at turning a blade.</description>
+        <graphicData>
+            <texPath>Things/Apparel/ESCP_Minotaur/ShoulderStone/ShoulderStone</texPath>
+            <graphicClass>Graphic_Single</graphicClass>
+        </graphicData>
+        <recipeMaker Inherit="False">
+            <workSpeedStat>GeneralLaborSpeed</workSpeedStat>
+            <workSkill>Crafting</workSkill>
+            <effectWorking>Tailor</effectWorking>
+            <soundWorking>Recipe_Tailor</soundWorking>
+            <unfinishedThingDef>UnfinishedApparel</unfinishedThingDef>
+            <recipeUsers>
+                <li>CraftingSpot</li>
+            </recipeUsers>
+        </recipeMaker>
+        <stuffCategories>
+            <li>Stony</li>
+        </stuffCategories>
+        <costStuffCount>45</costStuffCount>
+        <statBases>
+            <WorkToMake>1800</WorkToMake>
+            <Mass>4.5</Mass>
+            <StuffEffectMultiplierArmor>0.6</StuffEffectMultiplierArmor>
+            <StuffEffectMultiplierInsulation_Cold>0</StuffEffectMultiplierInsulation_Cold>
+            <StuffEffectMultiplierInsulation_Heat>0</StuffEffectMultiplierInsulation_Heat>
+            <EquipDelay>1.5</EquipDelay>
+        </statBases>
+        <apparel>
+            <wornGraphicPath>Things/Apparel/ESCP_Minotaur/ShoulderStone/ShoulderStone</wornGraphicPath>
+            <bodyPartGroups>
+                <li>Shoulders</li>
+            </bodyPartGroups>
+            <layers>
+                <li>Middle</li>
+            </layers>
+        </apparel>
+    </ThingDef>
+
+    <ThingDef ParentName="ESCP_MinotaurApparelBase">
+        <defName>ESCP_Apparel_Minotaur_FurBrown</defName>
+        <label>brown fur mantle</label>
+        <description>A heavy mantle of brown fur worn over the shoulders and back, sized for a minotaur.</description>
+        <graphicData>
+            <texPath>Things/Apparel/ESCP_Minotaur/FurBrown/FurBrown</texPath>
+            <graphicClass>Graphic_Single</graphicClass>
+        </graphicData>
+        <recipeMaker Inherit="False">
+            <workSpeedStat>GeneralLaborSpeed</workSpeedStat>
+            <workSkill>Crafting</workSkill>
+            <effectWorking>Tailor</effectWorking>
+            <soundWorking>Recipe_Tailor</soundWorking>
+            <unfinishedThingDef>UnfinishedApparel</unfinishedThingDef>
+            <recipeUsers>
+                <li>HandTailoringBench</li>
+            </recipeUsers>
+        </recipeMaker>
+        <stuffCategories>
+            <li>Leathery</li>
+        </stuffCategories>
+        <costStuffCount>70</costStuffCount>
+        <statBases>
+            <WorkToMake>2800</WorkToMake>
+            <Mass>2.5</Mass>
+            <StuffEffectMultiplierArmor>0.15</StuffEffectMultiplierArmor>
+            <StuffEffectMultiplierInsulation_Cold>0.6</StuffEffectMultiplierInsulation_Cold>
+            <StuffEffectMultiplierInsulation_Heat>0</StuffEffectMultiplierInsulation_Heat>
+            <EquipDelay>1.5</EquipDelay>
+        </statBases>
+        <apparel>
+            <wornGraphicPath>Things/Apparel/ESCP_Minotaur/FurBrown/FurBrown</wornGraphicPath>
+            <bodyPartGroups>
+                <li>Torso</li>
+                <li>Shoulders</li>
+            </bodyPartGroups>
+            <layers>
+                <li>Shell</li>
+            </layers>
+        </apparel>
+    </ThingDef>
+
+    <ThingDef ParentName="ESCP_MinotaurApparelBase">
+        <defName>ESCP_Apparel_Minotaur_FurGray</defName>
+        <label>gray fur mantle</label>
+        <description>A heavy mantle of gray wolf fur worn over the shoulders and back, sized for a minotaur.</description>
+        <graphicData>
+            <texPath>Things/Apparel/ESCP_Minotaur/FurGray/FurGray</texPath>
+            <graphicClass>Graphic_Single</graphicClass>
+        </graphicData>
+        <recipeMaker Inherit="False">
+            <workSpeedStat>GeneralLaborSpeed</workSpeedStat>
+            <workSkill>Crafting</workSkill>
+            <effectWorking>Tailor</effectWorking>
+            <soundWorking>Recipe_Tailor</soundWorking>
+            <unfinishedThingDef>UnfinishedApparel</unfinishedThingDef>
+            <recipeUsers>
+                <li>HandTailoringBench</li>
+            </recipeUsers>
+        </recipeMaker>
+        <stuffCategories>
+            <li>Leathery</li>
+        </stuffCategories>
+        <costStuffCount>70</costStuffCount>
+        <statBases>
+            <WorkToMake>2800</WorkToMake>
+            <Mass>2.5</Mass>
+            <StuffEffectMultiplierArmor>0.15</StuffEffectMultiplierArmor>
+            <StuffEffectMultiplierInsulation_Cold>0.6</StuffEffectMultiplierInsulation_Cold>
+            <StuffEffectMultiplierInsulation_Heat>0</StuffEffectMultiplierInsulation_Heat>
+            <EquipDelay>1.5</EquipDelay>
+        </statBases>
+        <apparel>
+            <wornGraphicPath>Things/Apparel/ESCP_Minotaur/FurGray/FurGray</wornGraphicPath>
+            <bodyPartGroups>
+                <li>Torso</li>
+                <li>Shoulders</li>
+            </bodyPartGroups>
+            <layers>
+                <li>Shell</li>
+            </layers>
+        </apparel>
+    </ThingDef>
+
+    <ThingDef ParentName="ESCP_MinotaurApparelBase">
+        <defName>ESCP_Apparel_Minotaur_FurPied</defName>
+        <label>pied fur mantle</label>
+        <description>A heavy mantle of black and white fur worn over the shoulders and back, sized for a minotaur.</description>
+        <graphicData>
+            <texPath>Things/Apparel/ESCP_Minotaur/FurPied/FurPied</texPath>
+            <graphicClass>Graphic_Single</graphicClass>
+        </graphicData>
+        <recipeMaker Inherit="False">
+            <workSpeedStat>GeneralLaborSpeed</workSpeedStat>
+            <workSkill>Crafting</workSkill>
+            <effectWorking>Tailor</effectWorking>
+            <soundWorking>Recipe_Tailor</soundWorking>
+            <unfinishedThingDef>UnfinishedApparel</unfinishedThingDef>
+            <recipeUsers>
+                <li>HandTailoringBench</li>
+            </recipeUsers>
+        </recipeMaker>
+        <stuffCategories>
+            <li>Leathery</li>
+        </stuffCategories>
+        <costStuffCount>70</costStuffCount>
+        <statBases>
+            <WorkToMake>2800</WorkToMake>
+            <Mass>2.5</Mass>
+            <StuffEffectMultiplierArmor>0.15</StuffEffectMultiplierArmor>
+            <StuffEffectMultiplierInsulation_Cold>0.6</StuffEffectMultiplierInsulation_Cold>
+            <StuffEffectMultiplierInsulation_Heat>0</StuffEffectMultiplierInsulation_Heat>
+            <EquipDelay>1.5</EquipDelay>
+        </statBases>
+        <apparel>
+            <wornGraphicPath>Things/Apparel/ESCP_Minotaur/FurPied/FurPied</wornGraphicPath>
+            <bodyPartGroups>
+                <li>Torso</li>
+                <li>Shoulders</li>
+            </bodyPartGroups>
+            <layers>
+                <li>Shell</li>
+            </layers>
+        </apparel>
+    </ThingDef>
+
+    <ThingDef ParentName="ESCP_MinotaurApparelBase">
+        <defName>ESCP_Apparel_Minotaur_Bracer</defName>
+        <label>leather bracer</label>
+        <description>A thick leather guard strapped around one forearm, made to catch a blow a minotaur would rather not take on the bone.</description>
+        <graphicData>
+            <texPath>Things/Apparel/ESCP_Minotaur/Bracer/Bracer</texPath>
+            <graphicClass>Graphic_Single</graphicClass>
+        </graphicData>
+        <recipeMaker Inherit="False">
+            <workSpeedStat>GeneralLaborSpeed</workSpeedStat>
+            <workSkill>Crafting</workSkill>
+            <effectWorking>Tailor</effectWorking>
+            <soundWorking>Recipe_Tailor</soundWorking>
+            <unfinishedThingDef>UnfinishedApparel</unfinishedThingDef>
+            <recipeUsers>
+                <li>HandTailoringBench</li>
+            </recipeUsers>
+        </recipeMaker>
+        <stuffCategories>
+            <li>Leathery</li>
+        </stuffCategories>
+        <costStuffCount>35</costStuffCount>
+        <statBases>
+            <WorkToMake>1400</WorkToMake>
+            <Mass>1</Mass>
+            <StuffEffectMultiplierArmor>0.35</StuffEffectMultiplierArmor>
+            <StuffEffectMultiplierInsulation_Cold>0.05</StuffEffectMultiplierInsulation_Cold>
+            <StuffEffectMultiplierInsulation_Heat>0</StuffEffectMultiplierInsulation_Heat>
+            <EquipDelay>1.5</EquipDelay>
+        </statBases>
+        <apparel>
+            <wornGraphicPath>Things/Apparel/ESCP_Minotaur/Bracer/Bracer</wornGraphicPath>
+            <bodyPartGroups>
+                <li>Arms</li>
+            </bodyPartGroups>
+            <layers>
+                <li>Middle</li>
+            </layers>
+        </apparel>
+    </ThingDef>
+
+    <ThingDef ParentName="ESCP_MinotaurApparelBase">
+        <defName>ESCP_Apparel_Minotaur_Loincloth</defName>
+        <label>minotaur loincloth</label>
+        <description>A simple hide loincloth. Most minotaurs wear little else.</description>
+        <graphicData>
+            <texPath>Things/Apparel/ESCP_Minotaur/Loincloth/Loincloth</texPath>
+            <graphicClass>Graphic_Single</graphicClass>
+        </graphicData>
+        <recipeMaker Inherit="False">
+            <workSpeedStat>GeneralLaborSpeed</workSpeedStat>
+            <workSkill>Crafting</workSkill>
+            <effectWorking>Tailor</effectWorking>
+            <soundWorking>Recipe_Tailor</soundWorking>
+            <unfinishedThingDef>UnfinishedApparel</unfinishedThingDef>
+            <recipeUsers>
+                <li>HandTailoringBench</li>
+            </recipeUsers>
+        </recipeMaker>
+        <stuffCategories>
+            <li>Leathery</li>
+        </stuffCategories>
+        <costStuffCount>25</costStuffCount>
+        <statBases>
+            <WorkToMake>1000</WorkToMake>
+            <Mass>0.5</Mass>
+            <StuffEffectMultiplierArmor>0.05</StuffEffectMultiplierArmor>
+            <StuffEffectMultiplierInsulation_Cold>0.05</StuffEffectMultiplierInsulation_Cold>
+            <StuffEffectMultiplierInsulation_Heat>0</StuffEffectMultiplierInsulation_Heat>
+            <EquipDelay>1.5</EquipDelay>
+        </statBases>
+        <apparel>
+            <wornGraphicPath>Things/Apparel/ESCP_Minotaur/Loincloth/Loincloth</wornGraphicPath>
+            <bodyPartGroups>
+                <li>Legs</li>
+            </bodyPartGroups>
+            <layers>
+                <li>OnSkin</li>
+            </layers>
+        </apparel>
+    </ThingDef>
+
+    <ThingDef ParentName="ESCP_MinotaurApparelBase">
+        <defName>ESCP_Apparel_Minotaur_LoinclothStudded</defName>
+        <label>studded loincloth</label>
+        <description>A hide loincloth with a studded belt, worn by minotaurs who want to be noticed.</description>
+        <graphicData>
+            <texPath>Things/Apparel/ESCP_Minotaur/LoinclothStudded/LoinclothStudded</texPath>
+            <graphicClass>Graphic_Single</graphicClass>
+        </graphicData>
+        <recipeMaker Inherit="False">
+            <workSpeedStat>GeneralLaborSpeed</workSpeedStat>
+            <workSkill>Crafting</workSkill>
+            <effectWorking>Tailor</effectWorking>
+            <soundWorking>Recipe_Tailor</soundWorking>
+            <unfinishedThingDef>UnfinishedApparel</unfinishedThingDef>
+            <recipeUsers>
+                <li>HandTailoringBench</li>
+            </recipeUsers>
+        </recipeMaker>
+        <stuffCategories>
+            <li>Leathery</li>
+        </stuffCategories>
+        <costStuffCount>35</costStuffCount>
+        <statBases>
+            <WorkToMake>1400</WorkToMake>
+            <Mass>0.8</Mass>
+            <StuffEffectMultiplierArmor>0.12</StuffEffectMultiplierArmor>
+            <StuffEffectMultiplierInsulation_Cold>0.05</StuffEffectMultiplierInsulation_Cold>
+            <StuffEffectMultiplierInsulation_Heat>0</StuffEffectMultiplierInsulation_Heat>
+            <EquipDelay>1.5</EquipDelay>
+        </statBases>
+        <apparel>
+            <wornGraphicPath>Things/Apparel/ESCP_Minotaur/LoinclothStudded/LoinclothStudded</wornGraphicPath>
+            <bodyPartGroups>
+                <li>Legs</li>
+            </bodyPartGroups>
+            <layers>
+                <li>OnSkin</li>
+            </layers>
+        </apparel>
+    </ThingDef>
+
+    <ThingDef ParentName="ESCP_MinotaurApparelBase">
+        <defName>ESCP_Apparel_Minotaur_StrapLeft</defName>
+        <label>ringed chest strap</label>
+        <description>A leather strap slung over the left shoulder, with an iron ring at the breast.</description>
+        <graphicData>
+            <texPath>Things/Apparel/ESCP_Minotaur/StrapLeft/StrapLeft</texPath>
+            <graphicClass>Graphic_Single</graphicClass>
+        </graphicData>
+        <recipeMaker Inherit="False">
+            <workSpeedStat>GeneralLaborSpeed</workSpeedStat>
+            <workSkill>Crafting</workSkill>
+            <effectWorking>Tailor</effectWorking>
+            <soundWorking>Recipe_Tailor</soundWorking>
+            <unfinishedThingDef>UnfinishedApparel</unfinishedThingDef>
+            <recipeUsers>
+                <li>HandTailoringBench</li>
+            </recipeUsers>
+        </recipeMaker>
+        <stuffCategories>
+            <li>Leathery</li>
+        </stuffCategories>
+        <costStuffCount>20</costStuffCount>
+        <statBases>
+            <WorkToMake>800</WorkToMake>
+            <Mass>0.3</Mass>
+            <StuffEffectMultiplierArmor>0.04</StuffEffectMultiplierArmor>
+            <StuffEffectMultiplierInsulation_Cold>0</StuffEffectMultiplierInsulation_Cold>
+            <StuffEffectMultiplierInsulation_Heat>0</StuffEffectMultiplierInsulation_Heat>
+            <EquipDelay>1.5</EquipDelay>
+        </statBases>
+        <apparel>
+            <wornGraphicPath>Things/Apparel/ESCP_Minotaur/StrapLeft/StrapLeft</wornGraphicPath>
+            <bodyPartGroups>
+                <li>Torso</li>
+            </bodyPartGroups>
+            <layers>
+                <li>Belt</li>
+            </layers>
+        </apparel>
+    </ThingDef>
+
+    <ThingDef ParentName="ESCP_MinotaurApparelBase">
+        <defName>ESCP_Apparel_Minotaur_StrapRight</defName>
+        <label>crossed chest strap</label>
+        <description>A leather strap slung over the right shoulder, with an iron ring at the breast.</description>
+        <graphicData>
+            <texPath>Things/Apparel/ESCP_Minotaur/StrapRight/StrapRight</texPath>
+            <graphicClass>Graphic_Single</graphicClass>
+        </graphicData>
+        <recipeMaker Inherit="False">
+            <workSpeedStat>GeneralLaborSpeed</workSpeedStat>
+            <workSkill>Crafting</workSkill>
+            <effectWorking>Tailor</effectWorking>
+            <soundWorking>Recipe_Tailor</soundWorking>
+            <unfinishedThingDef>UnfinishedApparel</unfinishedThingDef>
+            <recipeUsers>
+                <li>HandTailoringBench</li>
+            </recipeUsers>
+        </recipeMaker>
+        <stuffCategories>
+            <li>Leathery</li>
+        </stuffCategories>
+        <costStuffCount>20</costStuffCount>
+        <statBases>
+            <WorkToMake>800</WorkToMake>
+            <Mass>0.3</Mass>
+            <StuffEffectMultiplierArmor>0.04</StuffEffectMultiplierArmor>
+            <StuffEffectMultiplierInsulation_Cold>0</StuffEffectMultiplierInsulation_Cold>
+            <StuffEffectMultiplierInsulation_Heat>0</StuffEffectMultiplierInsulation_Heat>
+            <EquipDelay>1.5</EquipDelay>
+        </statBases>
+        <apparel>
+            <wornGraphicPath>Things/Apparel/ESCP_Minotaur/StrapRight/StrapRight</wornGraphicPath>
+            <bodyPartGroups>
+                <li>Torso</li>
+            </bodyPartGroups>
+            <layers>
+                <li>Belt</li>
+            </layers>
+        </apparel>
+    </ThingDef>
+
+    <ThingDef ParentName="ESCP_MinotaurApparelBase">
+        <defName>ESCP_Apparel_Minotaur_Warplate</defName>
+        <label>Morihaus warplate</label>
+        <description>Blackened plate over hardened leather, cut wide enough for a minotaur's shoulders and trimmed in Imperial red. The old Empire once armed the children of Morihaus for its wars, and a few smiths in Cyrodiil still remember the pattern.</description>
+        <techLevel>Medieval</techLevel>
+        <graphicData>
+            <texPath>Things/Apparel/ESCP_Minotaur/Warplate/Warplate</texPath>
+            <graphicClass>Graphic_Single</graphicClass>
+            <drawSize>(1.1, 1.1)</drawSize>
+        </graphicData>
+        <recipeMaker Inherit="False">
+            <workSpeedStat>GeneralLaborSpeed</workSpeedStat>
+            <workSkill>Crafting</workSkill>
+            <effectWorking>Smith</effectWorking>
+            <soundWorking>Recipe_Smith</soundWorking>
+            <unfinishedThingDef>UnfinishedTechArmor</unfinishedThingDef>
+            <researchPrerequisite>PlateArmor</researchPrerequisite>
+            <skillRequirements>
+                <Crafting>7</Crafting>
+            </skillRequirements>
+            <recipeUsers>
+                <li>FueledSmithy</li>
+                <li>ElectricSmithy</li>
+            </recipeUsers>
+        </recipeMaker>
+        <stuffCategories>
+            <li>Metallic</li>
+        </stuffCategories>
+        <costStuffCount>200</costStuffCount>
+        <costList>
+            <Leather_Plain>40</Leather_Plain>
+        </costList>
+        <statBases>
+            <WorkToMake>32000</WorkToMake>
+            <MaxHitPoints>360</MaxHitPoints>
+            <Mass>22</Mass>
+            <StuffEffectMultiplierArmor>1.05</StuffEffectMultiplierArmor>
+            <StuffEffectMultiplierInsulation_Cold>0.2</StuffEffectMultiplierInsulation_Cold>
+            <StuffEffectMultiplierInsulation_Heat>0.1</StuffEffectMultiplierInsulation_Heat>
+            <EquipDelay>8</EquipDelay>
+        </statBases>
+        <equippedStatOffsets>
+            <MoveSpeed>-0.3</MoveSpeed>
+        </equippedStatOffsets>
+        <apparel>
+            <wornGraphicPath>Things/Apparel/ESCP_Minotaur/Warplate/Warplate</wornGraphicPath>
+            <bodyPartGroups>
+                <li>Torso</li>
+                <li>Shoulders</li>
+                <li>Arms</li>
+                <li>Legs</li>
+            </bodyPartGroups>
+            <layers>
+                <li>Middle</li>
+                <li>Shell</li>
+            </layers>
+            <tags Inherit="False">
+                <li>ESCP_Minotaur_Warplate</li>
+            </tags>
+        </apparel>
+    </ThingDef>
+
+</Defs>

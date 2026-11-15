@@ -1,0 +1,189 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<Defs>
+
+    <GeneDef>
+        <defName>ESCP_Gene_Minotaur_Form</defName>
+        <canGenerateInGeneSet>false</canGenerateInGeneSet>
+        <label>minotaur form</label>
+        <description>Carriers have the head of a bull, curving horns, a tufted tail and a hide of short fur. No helm made for a man will fit over the horns, and no boot will fit a hoof.</description>
+        <iconPath>UI/Icons/Genes/Gene_Furskin</iconPath>
+        <displayCategory>Cosmetic</displayCategory>
+        <biostatCpx>0</biostatCpx>
+        <tattoosVisible>false</tattoosVisible>
+        <hairTagFilter>
+            <whitelist>true</whitelist>
+            <tags>
+                <li>Bald</li>
+            </tags>
+        </hairTagFilter>
+        <beardTagFilter>
+            <whitelist>true</whitelist>
+            <tags>
+                <li>NoBeard</li>
+            </tags>
+        </beardTagFilter>
+        <exclusionTags>
+            <li>Head</li>
+        </exclusionTags>
+        <forcedHeadTypes>
+            <li>ESCP_HeadMinotaur_Male</li>
+            <li>ESCP_HeadMinotaur_Female</li>
+        </forcedHeadTypes>
+        <renderNodeProperties>
+            <li>
+                <nodeClass>PawnRenderNode_AttachmentHead</nodeClass>
+                <workerClass>PawnRenderNodeWorker_FlipWhenCrawling</workerClass>
+                <texPaths>
+                    <li>Things/Pawn/Humanlike/ESCP_Minotaur/Horns/HornsA</li>
+                    <li>Things/Pawn/Humanlike/ESCP_Minotaur/Horns/HornsB</li>
+                    <li>Things/Pawn/Humanlike/ESCP_Minotaur/Horns/HornsC</li>
+                    <li>Things/Pawn/Humanlike/ESCP_Minotaur/Horns/HornsD</li>
+                    <li>Things/Pawn/Humanlike/ESCP_Minotaur/Horns/HornsE</li>
+                    <li>Things/Pawn/Humanlike/ESCP_Minotaur/Horns/HornsF</li>
+                </texPaths>
+                <color>(255, 255, 255)</color>
+                <parentTagDef>Head</parentTagDef>
+                <rotDrawMode>Fresh, Rotting, Dessicated</rotDrawMode>
+                <drawData>
+                    <defaultData>
+                        <layer>80</layer>
+                    </defaultData>
+                    <dataNorth>
+                        <layer>10</layer>
+                    </dataNorth>
+                </drawData>
+            </li>
+            <li>
+                <workerClass>PawnRenderNodeWorker_Body</workerClass>
+                <texPath>Things/Pawn/Humanlike/ESCP_Minotaur/Tail/Tail</texPath>
+                <colorType>Skin</colorType>
+                <useSkinShader>true</useSkinShader>
+                <useRottenColor>true</useRottenColor>
+                <parentTagDef>Body</parentTagDef>
+                <rotDrawMode>Fresh, Rotting</rotDrawMode>
+                <visibleFacing>
+                    <li>East</li>
+                    <li>West</li>
+                    <li>North</li>
+                </visibleFacing>
+                <drawData>
+                    <defaultData>
+                        <layer>-2</layer>
+                    </defaultData>
+                    <dataNorth>
+                        <layer>90</layer>
+                    </dataNorth>
+                </drawData>
+            </li>
+        </renderNodeProperties>
+    </GeneDef>
+
+    <GeneDef>
+        <defName>ESCP_Gene_Minotaur_Blood</defName>
+        <canGenerateInGeneSet>false</canGenerateInGeneSet>
+        <label>blood of Morihaus</label>
+        <description>Carriers are huge, tireless and terrifying in a fight, but they cannot read, make art or talk anyone into anything. Their hands are too big for a bowstring, and their tempers are worse than their hands.</description>
+        <iconPath>UI/Icons/Genes/Gene_Aggressive</iconPath>
+        <displayCategory>Miscellaneous</displayCategory>
+        <biostatCpx>0</biostatCpx>
+        <disabledWorkTags>
+            <li>Intellectual</li>
+            <li>Artistic</li>
+            <li>Social</li>
+        </disabledWorkTags>
+        <forcedTraits>
+            <li>
+                <def>ESCP_Trait_Minotaur_Temper</def>
+            </li>
+        </forcedTraits>
+        <statOffsets>
+            <PainShockThreshold>0.15</PainShockThreshold>
+            <MeleeHitChance>4</MeleeHitChance>
+        </statOffsets>
+        <statFactors>
+            <ShootingAccuracyPawn>0.5</ShootingAccuracyPawn>
+            <SocialImpact>0.5</SocialImpact>
+        </statFactors>
+    </GeneDef>
+
+    <GeneDef>
+        <defName>ESCP_Gene_Minotaur_HideBrown</defName>
+        <canGenerateInGeneSet>false</canGenerateInGeneSet>
+        <label>brown minotaur hide</label>
+        <labelShortAdj>brown</labelShortAdj>
+        <description>Carriers have a brown hide of short, coarse fur.</description>
+        <iconPath>UI/Icons/Genes/Gene_SkinColorOverride</iconPath>
+        <displayCategory>Cosmetic_Skin</displayCategory>
+        <skinColorOverride>(112, 78, 52)</skinColorOverride>
+        <exclusionTags>
+            <li>SkinColorOverride</li>
+        </exclusionTags>
+        <biostatCpx>0</biostatCpx>
+        <displayOrderInCategory>220</displayOrderInCategory>
+    </GeneDef>
+
+    <GeneDef>
+        <defName>ESCP_Gene_Minotaur_HideBlack</defName>
+        <canGenerateInGeneSet>false</canGenerateInGeneSet>
+        <label>black minotaur hide</label>
+        <labelShortAdj>black</labelShortAdj>
+        <description>Carriers have a black hide of short, coarse fur.</description>
+        <iconPath>UI/Icons/Genes/Gene_SkinColorOverride</iconPath>
+        <displayCategory>Cosmetic_Skin</displayCategory>
+        <skinColorOverride>(52, 44, 40)</skinColorOverride>
+        <exclusionTags>
+            <li>SkinColorOverride</li>
+        </exclusionTags>
+        <biostatCpx>0</biostatCpx>
+        <displayOrderInCategory>221</displayOrderInCategory>
+    </GeneDef>
+
+    <GeneDef>
+        <defName>ESCP_Gene_Minotaur_HideTan</defName>
+        <canGenerateInGeneSet>false</canGenerateInGeneSet>
+        <label>tan minotaur hide</label>
+        <labelShortAdj>tan</labelShortAdj>
+        <description>Carriers have a tan hide of short, coarse fur.</description>
+        <iconPath>UI/Icons/Genes/Gene_SkinColorOverride</iconPath>
+        <displayCategory>Cosmetic_Skin</displayCategory>
+        <skinColorOverride>(168, 128, 88)</skinColorOverride>
+        <exclusionTags>
+            <li>SkinColorOverride</li>
+        </exclusionTags>
+        <biostatCpx>0</biostatCpx>
+        <displayOrderInCategory>222</displayOrderInCategory>
+    </GeneDef>
+
+    <GeneDef>
+        <defName>ESCP_Gene_Minotaur_HideGray</defName>
+        <canGenerateInGeneSet>false</canGenerateInGeneSet>
+        <label>gray minotaur hide</label>
+        <labelShortAdj>gray</labelShortAdj>
+        <description>Carriers have a gray hide of short, coarse fur.</description>
+        <iconPath>UI/Icons/Genes/Gene_SkinColorOverride</iconPath>
+        <displayCategory>Cosmetic_Skin</displayCategory>
+        <skinColorOverride>(120, 114, 108)</skinColorOverride>
+        <exclusionTags>
+            <li>SkinColorOverride</li>
+        </exclusionTags>
+        <biostatCpx>0</biostatCpx>
+        <displayOrderInCategory>223</displayOrderInCategory>
+    </GeneDef>
+
+    <GeneDef>
+        <defName>ESCP_Gene_Minotaur_HideRed</defName>
+        <canGenerateInGeneSet>false</canGenerateInGeneSet>
+        <label>red minotaur hide</label>
+        <labelShortAdj>red</labelShortAdj>
+        <description>Carriers have a red hide of short, coarse fur.</description>
+        <iconPath>UI/Icons/Genes/Gene_SkinColorOverride</iconPath>
+        <displayCategory>Cosmetic_Skin</displayCategory>
+        <skinColorOverride>(130, 64, 44)</skinColorOverride>
+        <exclusionTags>
+            <li>SkinColorOverride</li>
+        </exclusionTags>
+        <biostatCpx>0</biostatCpx>
+        <displayOrderInCategory>224</displayOrderInCategory>
+    </GeneDef>
+
+</Defs>

@@ -1,0 +1,385 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<Defs>
+
+    <BackstoryDef>
+        <defName>ESCP_Backstory_Minotaur_HerdCalf</defName>
+        <identifier>ESCP_Backstory_Minotaur_HerdCalf</identifier>
+        <slot>Childhood</slot>
+        <title>herd calf</title>
+        <titleShort>Herd calf</titleShort>
+        <description>[PAWN_nameDef] grew up with a small minotaur herd in the forests of the Heartlands, learning which hunters to run from and which to charge.</description>
+        <skillGains>
+            <Melee>3</Melee>
+            <Plants>1</Plants>
+        </skillGains>
+        <spawnCategories>
+            <li>ESCP_Backstory_Minotaur_Child</li>
+        </spawnCategories>
+    </BackstoryDef>
+
+    <BackstoryDef>
+        <defName>ESCP_Backstory_Minotaur_CaveBorn</defName>
+        <identifier>ESCP_Backstory_Minotaur_CaveBorn</identifier>
+        <slot>Childhood</slot>
+        <title>cave-born</title>
+        <titleShort>Cave-born</titleShort>
+        <description>[PAWN_nameDef] was born in a cave in the Colovian highlands and spent most of [PAWN_possessive] childhood in the dark, listening for footsteps at the entrance.</description>
+        <skillGains>
+            <Mining>3</Mining>
+            <Melee>2</Melee>
+        </skillGains>
+        <spawnCategories>
+            <li>ESCP_Backstory_Minotaur_Child</li>
+        </spawnCategories>
+    </BackstoryDef>
+
+    <BackstoryDef>
+        <defName>ESCP_Backstory_Minotaur_RuinCalf</defName>
+        <identifier>ESCP_Backstory_Minotaur_RuinCalf</identifier>
+        <slot>Childhood</slot>
+        <title>ruin calf</title>
+        <titleShort>Ruin calf</titleShort>
+        <description>[PAWN_nameDef] was raised in the shell of an Ayleid ruin, among white-gold stones [PAWN_pronoun] could not read and never wondered about.</description>
+        <skillGains>
+            <Mining>2</Mining>
+            <Construction>2</Construction>
+        </skillGains>
+        <spawnCategories>
+            <li>ESCP_Backstory_Minotaur_Child</li>
+        </spawnCategories>
+    </BackstoryDef>
+
+    <BackstoryDef>
+        <defName>ESCP_Backstory_Minotaur_Orphan</defName>
+        <identifier>ESCP_Backstory_Minotaur_Orphan</identifier>
+        <slot>Childhood</slot>
+        <title>orphaned calf</title>
+        <titleShort>Orphan</titleShort>
+        <description>Hunters took [PAWN_nameDef]'s mother for her horns. [PAWN_pronoun] survived alone in the woods for a winter before another herd found [PAWN_objective].</description>
+        <skillGains>
+            <Melee>3</Melee>
+            <Animals>1</Animals>
+        </skillGains>
+        <spawnCategories>
+            <li>ESCP_Backstory_Minotaur_Child</li>
+        </spawnCategories>
+    </BackstoryDef>
+
+    <BackstoryDef>
+        <defName>ESCP_Backstory_Minotaur_PenCalf</defName>
+        <identifier>ESCP_Backstory_Minotaur_PenCalf</identifier>
+        <slot>Childhood</slot>
+        <title>penned calf</title>
+        <titleShort>Penned calf</titleShort>
+        <description>[PAWN_nameDef] was born in a cage behind a traveling menagerie and grew up being poked with sticks by paying customers.</description>
+        <skillGains>
+            <Melee>2</Melee>
+            <Shooting>-2</Shooting>
+        </skillGains>
+        <spawnCategories>
+            <li>ESCP_Backstory_Minotaur_Child</li>
+        </spawnCategories>
+    </BackstoryDef>
+
+    <BackstoryDef>
+        <defName>ESCP_Backstory_Minotaur_HighlandForager</defName>
+        <identifier>ESCP_Backstory_Minotaur_HighlandForager</identifier>
+        <slot>Childhood</slot>
+        <title>highland forager</title>
+        <titleShort>Forager</titleShort>
+        <description>[PAWN_nameDef] spent [PAWN_possessive] childhood rooting through the highland scrub for berries, roots and anything slow enough to catch.</description>
+        <skillGains>
+            <Plants>3</Plants>
+            <Cooking>1</Cooking>
+        </skillGains>
+        <spawnCategories>
+            <li>ESCP_Backstory_Minotaur_Child</li>
+        </spawnCategories>
+    </BackstoryDef>
+
+    <BackstoryDef>
+        <defName>ESCP_Backstory_Minotaur_CampFollower</defName>
+        <identifier>ESCP_Backstory_Minotaur_CampFollower</identifier>
+        <slot>Childhood</slot>
+        <title>camp follower</title>
+        <titleShort>Camp follower</titleShort>
+        <description>[PAWN_nameDef] grew up trailing behind an older minotaur who sold [PAWN_possessive] strength to whoever would pay in food.</description>
+        <skillGains>
+            <Construction>2</Construction>
+            <Melee>2</Melee>
+        </skillGains>
+        <spawnCategories>
+            <li>ESCP_Backstory_Minotaur_Child</li>
+        </spawnCategories>
+    </BackstoryDef>
+
+    <BackstoryDef>
+        <defName>ESCP_Backstory_Minotaur_RiverCalf</defName>
+        <identifier>ESCP_Backstory_Minotaur_RiverCalf</identifier>
+        <slot>Childhood</slot>
+        <title>river calf</title>
+        <titleShort>River calf</titleShort>
+        <description>[PAWN_nameDef] was raised along the Niben's wild banks, wading after fish and fighting the mudcrabs for the catch.</description>
+        <skillGains>
+            <Melee>2</Melee>
+            <Animals>2</Animals>
+        </skillGains>
+        <spawnCategories>
+            <li>ESCP_Backstory_Minotaur_Child</li>
+        </spawnCategories>
+    </BackstoryDef>
+
+    <BackstoryDef>
+        <defName>ESCP_Backstory_Minotaur_HerdBull</defName>
+        <identifier>ESCP_Backstory_Minotaur_HerdBull</identifier>
+        <slot>Adulthood</slot>
+        <title>herd bull</title>
+        <titleShort>Herd bull</titleShort>
+        <description>[PAWN_nameDef] led a small herd through the forests of Cyrodiil, keeping hunters and bandits away by being larger and angrier than both.</description>
+        <skillGains>
+            <Melee>6</Melee>
+            <Animals>2</Animals>
+        </skillGains>
+        <spawnCategories>
+            <li>ESCP_Backstory_Minotaur_Adult</li>
+        </spawnCategories>
+        <bodyTypeMale>Hulk</bodyTypeMale>
+        <bodyTypeFemale>Female</bodyTypeFemale>
+    </BackstoryDef>
+
+    <BackstoryDef>
+        <defName>ESCP_Backstory_Minotaur_RuinGuard</defName>
+        <identifier>ESCP_Backstory_Minotaur_RuinGuard</identifier>
+        <slot>Adulthood</slot>
+        <title>ruin guardian</title>
+        <titleShort>Ruin guardian</titleShort>
+        <description>[PAWN_nameDef] made a crumbling Ayleid ruin [PAWN_possessive] home and fought off every treasure hunter who wandered in. Some of them left.</description>
+        <skillGains>
+            <Melee>6</Melee>
+            <Mining>2</Mining>
+        </skillGains>
+        <spawnCategories>
+            <li>ESCP_Backstory_Minotaur_Adult</li>
+        </spawnCategories>
+        <bodyTypeMale>Hulk</bodyTypeMale>
+        <bodyTypeFemale>Female</bodyTypeFemale>
+    </BackstoryDef>
+
+    <BackstoryDef>
+        <defName>ESCP_Backstory_Minotaur_HornHunted</defName>
+        <identifier>ESCP_Backstory_Minotaur_HornHunted</identifier>
+        <slot>Adulthood</slot>
+        <title>hunted beast</title>
+        <titleShort>Hunted</titleShort>
+        <description>Minotaur horn fetches a good price with alchemists, and [PAWN_nameDef] spent years being hunted for [PAWN_possessive]. [PAWN_pronoun] has outlived every hunter who tried.</description>
+        <skillGains>
+            <Melee>5</Melee>
+            <Plants>2</Plants>
+        </skillGains>
+        <spawnCategories>
+            <li>ESCP_Backstory_Minotaur_Adult</li>
+        </spawnCategories>
+        <bodyTypeMale>Hulk</bodyTypeMale>
+        <bodyTypeFemale>Female</bodyTypeFemale>
+    </BackstoryDef>
+
+    <BackstoryDef>
+        <defName>ESCP_Backstory_Minotaur_ArenaBeast</defName>
+        <identifier>ESCP_Backstory_Minotaur_ArenaBeast</identifier>
+        <slot>Adulthood</slot>
+        <title>arena beast</title>
+        <titleShort>Arena beast</titleShort>
+        <description>[PAWN_nameDef] was caught as a calf and made to fight for crowds in a provincial arena. [PAWN_pronoun] was never beaten, only sold, and eventually escaped.</description>
+        <skillGains>
+            <Melee>8</Melee>
+            <Construction>-1</Construction>
+        </skillGains>
+        <spawnCategories>
+            <li>ESCP_Backstory_Minotaur_Adult</li>
+        </spawnCategories>
+        <bodyTypeMale>Hulk</bodyTypeMale>
+        <bodyTypeFemale>Female</bodyTypeFemale>
+    </BackstoryDef>
+
+    <BackstoryDef>
+        <defName>ESCP_Backstory_Minotaur_MenagerieEscapee</defName>
+        <identifier>ESCP_Backstory_Minotaur_MenagerieEscapee</identifier>
+        <slot>Adulthood</slot>
+        <title>menagerie escapee</title>
+        <titleShort>Escapee</titleShort>
+        <description>A wealthy collector kept [PAWN_nameDef] in a pen as a curiosity until the night [PAWN_pronoun] broke the pen, the gate and the collector.</description>
+        <skillGains>
+            <Melee>5</Melee>
+            <Construction>3</Construction>
+        </skillGains>
+        <spawnCategories>
+            <li>ESCP_Backstory_Minotaur_Adult</li>
+        </spawnCategories>
+        <bodyTypeMale>Hulk</bodyTypeMale>
+        <bodyTypeFemale>Female</bodyTypeFemale>
+    </BackstoryDef>
+
+    <BackstoryDef>
+        <defName>ESCP_Backstory_Minotaur_HireMuscle</defName>
+        <identifier>ESCP_Backstory_Minotaur_HireMuscle</identifier>
+        <slot>Adulthood</slot>
+        <title>hired muscle</title>
+        <titleShort>Hired muscle</titleShort>
+        <description>[PAWN_nameDef] worked for a bandit gang as a living battering ram, paid in meat and left out of every plan.</description>
+        <skillGains>
+            <Melee>6</Melee>
+            <Mining>2</Mining>
+        </skillGains>
+        <spawnCategories>
+            <li>ESCP_Backstory_Minotaur_Adult</li>
+        </spawnCategories>
+        <bodyTypeMale>Hulk</bodyTypeMale>
+        <bodyTypeFemale>Female</bodyTypeFemale>
+    </BackstoryDef>
+
+    <BackstoryDef>
+        <defName>ESCP_Backstory_Minotaur_Hauler</defName>
+        <identifier>ESCP_Backstory_Minotaur_Hauler</identifier>
+        <slot>Adulthood</slot>
+        <title>quarry hauler</title>
+        <titleShort>Hauler</titleShort>
+        <description>A Colovian quarry put [PAWN_nameDef] to work dragging stone that took four oxen to move. The pay was bad and the overseers kept their distance.</description>
+        <skillGains>
+            <Mining>6</Mining>
+            <Construction>3</Construction>
+        </skillGains>
+        <spawnCategories>
+            <li>ESCP_Backstory_Minotaur_Adult</li>
+        </spawnCategories>
+        <bodyTypeMale>Hulk</bodyTypeMale>
+        <bodyTypeFemale>Female</bodyTypeFemale>
+    </BackstoryDef>
+
+    <BackstoryDef>
+        <defName>ESCP_Backstory_Minotaur_Woodsman</defName>
+        <identifier>ESCP_Backstory_Minotaur_Woodsman</identifier>
+        <slot>Adulthood</slot>
+        <title>woodland brute</title>
+        <titleShort>Woodland brute</titleShort>
+        <description>[PAWN_nameDef] lived alone in the Great Forest, felling trees with [PAWN_possessive] bare hands for shelter and charging anyone who came too close.</description>
+        <skillGains>
+            <Plants>5</Plants>
+            <Melee>3</Melee>
+        </skillGains>
+        <spawnCategories>
+            <li>ESCP_Backstory_Minotaur_Adult</li>
+        </spawnCategories>
+        <bodyTypeMale>Hulk</bodyTypeMale>
+        <bodyTypeFemale>Female</bodyTypeFemale>
+    </BackstoryDef>
+
+    <BackstoryDef>
+        <defName>ESCP_Backstory_Minotaur_LordOfHerd</defName>
+        <identifier>ESCP_Backstory_Minotaur_LordOfHerd</identifier>
+        <slot>Adulthood</slot>
+        <title>minotaur lord</title>
+        <titleShort>Minotaur lord</titleShort>
+        <description>[PAWN_nameDef] grew larger and older than any minotaur [PAWN_pronoun] knew, and the herd followed [PAWN_objective] because nobody wanted to find out what happened if they didn't.</description>
+        <skillGains>
+            <Melee>8</Melee>
+            <Animals>2</Animals>
+        </skillGains>
+        <spawnCategories>
+            <li>ESCP_Backstory_Minotaur_Adult</li>
+        </spawnCategories>
+        <bodyTypeMale>Hulk</bodyTypeMale>
+        <bodyTypeFemale>Female</bodyTypeFemale>
+    </BackstoryDef>
+
+    <BackstoryDef>
+        <defName>ESCP_Backstory_Minotaur_Shaman</defName>
+        <identifier>ESCP_Backstory_Minotaur_Shaman</identifier>
+        <slot>Adulthood</slot>
+        <title>minotaur shaman</title>
+        <titleShort>Shaman</titleShort>
+        <description>[PAWN_nameDef] learned a crude magic from an older shaman of the herd, calling fire with grunts and stamping rather than words.</description>
+        <skillGains>
+            <Melee>3</Melee>
+            <Medicine>3</Medicine>
+            <Plants>2</Plants>
+        </skillGains>
+        <spawnCategories>
+            <li>ESCP_Backstory_Minotaur_Adult</li>
+        </spawnCategories>
+        <bodyTypeMale>Hulk</bodyTypeMale>
+        <bodyTypeFemale>Female</bodyTypeFemale>
+    </BackstoryDef>
+
+    <BackstoryDef>
+        <defName>ESCP_Backstory_Minotaur_SoldierBeast</defName>
+        <identifier>ESCP_Backstory_Minotaur_SoldierBeast</identifier>
+        <slot>Adulthood</slot>
+        <title>war beast</title>
+        <titleShort>War beast</titleShort>
+        <description>A mercenary company bought [PAWN_nameDef] as a war beast and pointed [PAWN_objective] at the enemy line. [PAWN_pronoun] broke three lines before the company broke instead.</description>
+        <skillGains>
+            <Melee>7</Melee>
+            <Shooting>-3</Shooting>
+        </skillGains>
+        <spawnCategories>
+            <li>ESCP_Backstory_Minotaur_Adult</li>
+        </spawnCategories>
+        <bodyTypeMale>Hulk</bodyTypeMale>
+        <bodyTypeFemale>Female</bodyTypeFemale>
+    </BackstoryDef>
+
+    <BackstoryDef>
+        <defName>ESCP_Backstory_Minotaur_Exile</defName>
+        <identifier>ESCP_Backstory_Minotaur_Exile</identifier>
+        <slot>Adulthood</slot>
+        <title>herd exile</title>
+        <titleShort>Exile</titleShort>
+        <description>[PAWN_nameDef] was driven out of [PAWN_possessive] herd after a rage that left the old bull dead. [PAWN_pronoun] has wandered alone ever since.</description>
+        <skillGains>
+            <Melee>6</Melee>
+            <Plants>2</Plants>
+        </skillGains>
+        <spawnCategories>
+            <li>ESCP_Backstory_Minotaur_Adult</li>
+        </spawnCategories>
+        <bodyTypeMale>Hulk</bodyTypeMale>
+        <bodyTypeFemale>Female</bodyTypeFemale>
+    </BackstoryDef>
+
+    <BackstoryDef>
+        <defName>ESCP_Backstory_Minotaur_FarmBrute</defName>
+        <identifier>ESCP_Backstory_Minotaur_FarmBrute</identifier>
+        <slot>Adulthood</slot>
+        <title>farm brute</title>
+        <titleShort>Farm brute</titleShort>
+        <description>A desperate farmer in the Gold Coast hired [PAWN_nameDef] to pull a plough. Neither of them talked much, and the harvest was the best in years.</description>
+        <skillGains>
+            <Plants>6</Plants>
+            <Animals>2</Animals>
+        </skillGains>
+        <spawnCategories>
+            <li>ESCP_Backstory_Minotaur_Adult</li>
+        </spawnCategories>
+        <bodyTypeMale>Hulk</bodyTypeMale>
+        <bodyTypeFemale>Female</bodyTypeFemale>
+    </BackstoryDef>
+
+    <BackstoryDef>
+        <defName>ESCP_Backstory_Minotaur_Gatekeeper</defName>
+        <identifier>ESCP_Backstory_Minotaur_Gatekeeper</identifier>
+        <slot>Adulthood</slot>
+        <title>gatekeeper</title>
+        <titleShort>Gatekeeper</titleShort>
+        <description>[PAWN_nameDef] guarded a mountain pass for a Colovian count who paid [PAWN_objective] in cattle. Travelers paid the toll without arguing.</description>
+        <skillGains>
+            <Melee>6</Melee>
+            <Construction>2</Construction>
+        </skillGains>
+        <spawnCategories>
+            <li>ESCP_Backstory_Minotaur_Adult</li>
+        </spawnCategories>
+        <bodyTypeMale>Hulk</bodyTypeMale>
+        <bodyTypeFemale>Female</bodyTypeFemale>
+    </BackstoryDef>
+
+</Defs>

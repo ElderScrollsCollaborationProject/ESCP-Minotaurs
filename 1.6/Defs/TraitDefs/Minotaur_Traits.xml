@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<Defs>
+
+    <TraitDef>
+        <defName>ESCP_Trait_Minotaur_Temper</defName>
+        <commonality>0</commonality>
+        <degreeDatas>
+            <li>
+                <label>bull's temper</label>
+                <description>{PAWN_nameDef} has the blood of Morihaus and the temper that comes with it. When {PAWN_possessive} patience breaks, it breaks violently, and an unhappy minotaur can lose control even without a reason anyone else can see.</description>
+                <statOffsets>
+                    <MentalBreakThreshold>0.08</MentalBreakThreshold>
+                </statOffsets>
+                <theOnlyAllowedMentalBreaks>
+                    <li>Berserk</li>
+                    <li>Tantrum</li>
+                    <li>TargetedTantrum</li>
+                    <li>BedroomTantrum</li>
+                </theOnlyAllowedMentalBreaks>
+                <randomMentalState>Berserk</randomMentalState>
+                <randomMentalStateMtbDaysMoodCurve>
+                    <points>
+                        <li>(0, 8)</li>
+                        <li>(0.35, 30)</li>
+                        <li>(0.6, 90)</li>
+                        <li>(1, 300)</li>
+                    </points>
+                </randomMentalStateMtbDaysMoodCurve>
+            </li>
+        </degreeDatas>
+    </TraitDef>
+
+</Defs>

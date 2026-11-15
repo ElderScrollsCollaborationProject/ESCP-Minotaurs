@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<Defs>
+
+    <RulePackDef MayRequire="Ludeon.RimWorld.Ideology">
+        <defName>ESCP_NamerIdeo_Minotaur</defName>
+        <include>
+            <li>GlobalUtility</li>
+        </include>
+        <rulePack>
+            <rulesStrings>
+                <li>r_ideoName->The Blood of Morihaus</li>
+                <li>r_ideoName->The Herd Way</li>
+                <li>r_ideoName->The Bull's Memory</li>
+                <li>r_ideoAdjective->Herd</li>
+                <li>r_ideoAdjective->Morihausian</li>
+                <li>r_memberName->Herd-kin</li>
+                <li>r_memberName->Child of Morihaus</li>
+                <li>hyphenPrefix->Bull</li>
+                <li>hyphenPrefix->Horn</li>
+                <li>hyphenPrefix->Herd</li>
+            </rulesStrings>
+        </rulePack>
+    </RulePackDef>
+
+    <RulePackDef MayRequire="Ludeon.RimWorld.Ideology">
+        <defName>ESCP_NamerDeity_Minotaur</defName>
+        <rulePack>
+            <rulesStrings>
+                <li>r_deityName->Morihaus</li>
+                <li>r_deityName->Alessia</li>
+            </rulesStrings>
+        </rulePack>
+    </RulePackDef>
+
+    <RulePackDef MayRequire="Ludeon.RimWorld.Ideology">
+        <defName>ESCP_DeityTypeMaker_Minotaur</defName>
+        <rulePack>
+            <rulesStrings>
+                <li>r_deityType->the winged bull, first of the herd</li>
+                <li>r_deityType->the Slave Queen, mother of the line</li>
+            </rulesStrings>
+        </rulePack>
+    </RulePackDef>
+
+    <RulePackDef MayRequire="Ludeon.RimWorld.Ideology">
+        <defName>ESCP_NamerFestival_Minotaur</defName>
+        <rulePack>
+            <rulesStrings>
+                <li>r_ritualName->[festivalName]</li>
+                <li>festivalName->The Horn Moot</li>
+                <li>festivalName->The Charge of Morihaus</li>
+                <li>festivalName->The Herd Feast</li>
+                <li>festivalName->The Long Bellow</li>
+            </rulesStrings>
+        </rulePack>
+    </RulePackDef>
+
+    <RulePackDef MayRequire="Ludeon.RimWorld.Ideology">
+        <defName>ESCP_LeaderTitleMaker_Minotaur</defName>
+        <rulePack>
+            <rulesStrings>
+                <li>r_leaderTitle->herd lord</li>
+                <li>r_leaderTitle->great bull</li>
+            </rulesStrings>
+        </rulePack>
+    </RulePackDef>
+
+</Defs>

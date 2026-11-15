@@ -1,0 +1,95 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<Defs>
+
+    <PawnKindDef Name="ESCP_MinotaurkindBase" Abstract="True">
+        <race>ESCP_Race_Minotaur</race>
+        <defaultFactionDef>ESCP_Faction_Minotaur</defaultFactionDef>
+        <xenotypeSet>
+            <xenotypeChances>
+                <ESCP_Xenotype_Minotaur MayRequire="Ludeon.RimWorld.Biotech">1</ESCP_Xenotype_Minotaur>
+            </xenotypeChances>
+        </xenotypeSet>
+        <useFactionXenotypes>false</useFactionXenotypes>
+        <minGenerationAge>20</minGenerationAge>
+        <maxGenerationAge>70</maxGenerationAge>
+        <chemicalAddictionChance>0</chemicalAddictionChance>
+        <invNutrition>4</invNutrition>
+        <invFoodDef>Pemmican</invFoodDef>
+        <apparelTags>
+            <li>ESCP_Minotaur_Apparel</li>
+        </apparelTags>
+        <apparelAllowHeadgearChance>0</apparelAllowHeadgearChance>
+        <apparelMoney>80~300</apparelMoney>
+        <weaponTags>
+            <li>MedievalMeleeAdvanced</li>
+            <li>NeolithicMeleeAdvanced</li>
+        </weaponTags>
+        <weaponMoney>150~500</weaponMoney>
+        <isFighter>true</isFighter>
+        <initialWillRange>5~8</initialWillRange>
+        <initialResistanceRange>30~50</initialResistanceRange>
+        <pawnGroupDevelopmentStage>Adult</pawnGroupDevelopmentStage>
+        <backstoryFiltersOverride>
+            <li>
+                <categoriesChildhood>
+                    <li>ESCP_Backstory_Minotaur_Child</li>
+                </categoriesChildhood>
+                <categoriesAdulthood>
+                    <li>ESCP_Backstory_Minotaur_Adult</li>
+                </categoriesAdulthood>
+            </li>
+        </backstoryFiltersOverride>
+    </PawnKindDef>
+
+    <PawnKindDef ParentName="ESCP_MinotaurkindBase">
+        <defName>ESCP_Pawnkind_Minotaur_Brute</defName>
+        <label>minotaur</label>
+        <combatPower>130</combatPower>
+    </PawnKindDef>
+
+    <PawnKindDef ParentName="ESCP_MinotaurkindBase">
+        <defName>ESCP_Pawnkind_Minotaur_Shaman</defName>
+        <label>minotaur shaman</label>
+        <combatPower>150</combatPower>
+        <weaponMoney>0~0</weaponMoney>
+        <modExtensions>
+            <li Class="ESCP.Core.Magic.PawnKindExtension_Spellcaster">
+                <spells>
+                    <li>ESCP_Spell_Firebolt</li>
+                </spells>
+                <randomSpells>
+                    <li>ESCP_Spell_Oakflesh</li>
+                    <li>ESCP_Spell_Fear</li>
+                    <li>ESCP_Spell_Healing</li>
+                </randomSpells>
+                <randomCount>1~2</randomCount>
+            </li>
+        </modExtensions>
+    </PawnKindDef>
+
+    <PawnKindDef ParentName="ESCP_MinotaurkindBase">
+        <defName>ESCP_Pawnkind_Minotaur_Lord</defName>
+        <label>minotaur lord</label>
+        <combatPower>240</combatPower>
+        <minGenerationAge>40</minGenerationAge>
+        <factionLeader>true</factionLeader>
+        <itemQuality>Good</itemQuality>
+        <apparelRequired>
+            <li>ESCP_Apparel_Minotaur_Warplate</li>
+        </apparelRequired>
+        <weaponMoney>500~1200</weaponMoney>
+    </PawnKindDef>
+
+    <PawnKindDef ParentName="ESCP_MinotaurkindBase">
+        <defName>ESCP_Pawnkind_Minotaur_Settler</defName>
+        <label>minotaur</label>
+        <defaultFactionDef>ESCP_Faction_Minotaur_Player</defaultFactionDef>
+        <combatPower>60</combatPower>
+        <isFighter>false</isFighter>
+        <apparelMoney>80~200</apparelMoney>
+        <weaponMoney>0~0</weaponMoney>
+        <initialWillRange>0~0</initialWillRange>
+        <initialResistanceRange>13~21</initialResistanceRange>
+    </PawnKindDef>
+
+</Defs>

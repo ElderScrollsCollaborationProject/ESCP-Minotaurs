@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<Defs>
+
+    <HeadTypeDef ParentName="AverageBase">
+        <defName>ESCP_HeadMinotaur_Male</defName>
+        <randomChosen>false</randomChosen>
+        <graphicPath>Things/Pawn/Humanlike/ESCP_Minotaur/Heads/Male_Average_Normal</graphicPath>
+        <gender>Male</gender>
+        <modExtensions>
+            <li Class="ESCP.Core.HeadTypeExtension_Skull">
+                <skull>ESCP_HeadMinotaur_Skull</skull>
+            </li>
+        </modExtensions>
+    </HeadTypeDef>
+    <HeadTypeDef ParentName="AverageBase">
+        <defName>ESCP_HeadMinotaur_Female</defName>
+        <randomChosen>false</randomChosen>
+        <graphicPath>Things/Pawn/Humanlike/ESCP_Minotaur/Heads/Female_Average_Normal</graphicPath>
+        <gender>Female</gender>
+        <modExtensions>
+            <li Class="ESCP.Core.HeadTypeExtension_Skull">
+                <skull>ESCP_HeadMinotaur_Skull</skull>
+            </li>
+        </modExtensions>
+    </HeadTypeDef>
+    <HeadTypeDef ParentName="AverageBase">
+        <defName>ESCP_HeadMinotaur_Skull</defName>
+        <graphicPath>Things/Pawn/Humanlike/ESCP_Minotaur/Heads/None_Average_Skull</graphicPath>
+        <selectionWeight>0</selectionWeight>
+        <randomChosen>false</randomChosen>
+        <gender>None</gender>
+    </HeadTypeDef>
+
+</Defs>

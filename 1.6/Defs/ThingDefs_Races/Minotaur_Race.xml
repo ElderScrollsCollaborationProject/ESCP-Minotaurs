@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<Defs>
+
+    <ThingDef ParentName="Human">
+        <defName>ESCP_Race_Minotaur</defName>
+        <label>minotaur</label>
+        <description>A bull-headed giant of the Cyrodiilic wilds. Minotaurs claim descent from Morihaus, the winged bull who fought beside Alessia against the Ayleids, and most of Tamriel thinks of them as beasts. They are rare, enormously strong and slow to calm once angered.</description>
+        <statBases>
+            <MoveSpeed>4.8</MoveSpeed>
+            <ComfyTemperatureMin>-25</ComfyTemperatureMin>
+            <ArmorRating_Blunt>0.1</ArmorRating_Blunt>
+            <ArmorRating_Sharp>0.08</ArmorRating_Sharp>
+            <CarryingCapacity>150</CarryingCapacity>
+        </statBases>
+        <tools Inherit="False">
+            <li>
+                <label>left fist</label>
+                <capacities>
+                    <li>Blunt</li>
+                </capacities>
+                <power>12</power>
+                <cooldownTime>2</cooldownTime>
+                <linkedBodyPartsGroup>LeftHand</linkedBodyPartsGroup>
+            </li>
+            <li>
+                <label>right fist</label>
+                <capacities>
+                    <li>Blunt</li>
+                </capacities>
+                <power>12</power>
+                <cooldownTime>2</cooldownTime>
+                <linkedBodyPartsGroup>RightHand</linkedBodyPartsGroup>
+            </li>
+            <li>
+                <label>horns</label>
+                <capacities>
+                    <li>Stab</li>
+                </capacities>
+                <power>20</power>
+                <cooldownTime>2.4</cooldownTime>
+                <linkedBodyPartsGroup>HeadAttackTool</linkedBodyPartsGroup>
+                <chanceFactor>0.8</chanceFactor>
+            </li>
+        </tools>
+        <race>
+            <baseBodySize>1.6</baseBodySize>
+            <baseHealthScale>1.6</baseHealthScale>
+            <baseHungerRate>1.6</baseHungerRate>
+        </race>
+        <modExtensions>
+            <li Class="ESCP.Core.RaceExtension_Quadruped">
+                <bodyTypes>
+                    <li>ESCP_MinotaurMale</li>
+                </bodyTypes>
+                <femaleBodyTypes>
+                    <li>ESCP_MinotaurFemale</li>
+                </femaleBodyTypes>
+                <childBodyType>Child</childBodyType>
+            </li>
+        </modExtensions>
+    </ThingDef>
+
+</Defs>

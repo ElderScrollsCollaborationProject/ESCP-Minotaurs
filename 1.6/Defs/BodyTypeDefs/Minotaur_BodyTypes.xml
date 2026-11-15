@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<Defs>
+
+    <BodyTypeDef>
+        <defName>ESCP_MinotaurMale</defName>
+        <bodyNakedGraphicPath>Things/Pawn/Humanlike/ESCP_Minotaur/Bodies/Naked_ESCP_MinotaurMale</bodyNakedGraphicPath>
+        <bodyDessicatedGraphicPath>Things/Pawn/Humanlike/Bodies/Dessicated/Dessicated_Male</bodyDessicatedGraphicPath>
+        <headOffset>(0.10, 0.34)</headOffset>
+        <bodyGraphicScale>(1, 1.25)</bodyGraphicScale>
+        <bedOffset>0</bedOffset>
+    </BodyTypeDef>
+    <BodyTypeDef>
+        <defName>ESCP_MinotaurFemale</defName>
+        <bodyNakedGraphicPath>Things/Pawn/Humanlike/ESCP_Minotaur/Bodies/Naked_ESCP_MinotaurFemale</bodyNakedGraphicPath>
+        <bodyDessicatedGraphicPath>Things/Pawn/Humanlike/Bodies/Dessicated/Dessicated_Male</bodyDessicatedGraphicPath>
+        <headOffset>(0.10, 0.34)</headOffset>
+        <bodyGraphicScale>(1, 1.25)</bodyGraphicScale>
+        <bedOffset>0</bedOffset>
+    </BodyTypeDef>
+
+</Defs>
