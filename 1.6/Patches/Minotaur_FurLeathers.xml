@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<Patch>
+
+    <Operation Class="PatchOperationAdd">
+        <xpath>Defs/ThingDef[defName="Leather_Plain" or defName="Leather_Dog" or defName="Leather_Wolf" or defName="Leather_Panthera" or defName="Leather_Camel" or defName="Leather_Bluefur" or defName="Leather_Bear" or defName="Leather_GuineaPig" or defName="Leather_Light" or defName="Leather_Chinchilla" or defName="Leather_Fox" or defName="Leather_Heavy" or defName="Leather_Thrumbo" or defName="Leather_Mastodon" or defName="Leather_Sealskin" or defName="Leather_AlphaThrumbo" or defName="Leather_Mink"]/stuffProps</xpath>
+        <value>
+            <categories>
+                <li>ESCP_Fur</li>
+            </categories>
+        </value>
+    </Operation>
+
+</Patch>

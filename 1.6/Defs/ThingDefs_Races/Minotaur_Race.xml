@@ -44,6 +44,7 @@
         </tools>
         <race>
             <baseBodySize>1.6</baseBodySize>
+            <leatherDef>ESCP_LeatherMinotaur</leatherDef>
             <baseHealthScale>1.6</baseHealthScale>
             <baseHungerRate>1.6</baseHungerRate>
         </race>

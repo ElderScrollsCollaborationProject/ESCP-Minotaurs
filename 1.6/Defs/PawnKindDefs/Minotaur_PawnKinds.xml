@@ -75,7 +75,7 @@
         <factionLeader>true</factionLeader>
         <itemQuality>Good</itemQuality>
         <apparelRequired>
-            <li>ESCP_Apparel_Minotaur_Warplate</li>
+            <li MayRequire="Rick.ESCP.Imperials">ESCP_Apparel_Minotaur_Imperial_Armor</li>
         </apparelRequired>
         <weaponMoney>500~1200</weaponMoney>
     </PawnKindDef>
@@ -90,6 +90,25 @@
         <weaponMoney>0~0</weaponMoney>
         <initialWillRange>0~0</initialWillRange>
         <initialResistanceRange>13~21</initialResistanceRange>
+    </PawnKindDef>
+
+    <PawnKindDef ParentName="ESCP_MinotaurkindBase" MayRequire="Rick.ESCP.Imperials">
+        <defName>ESCP_Pawnkind_Minotaur_Imperial</defName>
+        <label>Imperial minotaur</label>
+        <defaultFactionDef>ESCP_Faction_Imperial</defaultFactionDef>
+        <combatPower>170</combatPower>
+        <itemQuality>Normal</itemQuality>
+        <apparelRequired>
+            <li>ESCP_Apparel_Minotaur_Imperial_Armor</li>
+        </apparelRequired>
+        <weaponMoney>300~800</weaponMoney>
+        <modExtensions>
+            <li Class="ESCP.Factions.PawnKindExtension_Eras">
+                <eras>
+                    <li>1</li>
+                </eras>
+            </li>
+        </modExtensions>
     </PawnKindDef>
 
 </Defs>

@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<Defs>
+
+    <StuffCategoryDef>
+        <defName>ESCP_Fur</defName>
+        <label>fur</label>
+    </StuffCategoryDef>
+
+</Defs>

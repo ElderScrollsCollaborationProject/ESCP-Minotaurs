@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<Defs>
+
+    <ResearchProjectDef>
+        <defName>ESCP_Research_Minotaur_Armory</defName>
+        <label>minotaur armoring</label>
+        <description>Learn to cut and fit plate for a minotaur's frame: the wide shoulders, the thick neck and the horns that no ordinary helm will clear. The old Legion pattern for the children of Morihaus can be forged once Imperial Legion smithing is also known.</description>
+        <baseCost>900</baseCost>
+        <techLevel>Medieval</techLevel>
+        <prerequisites>
+            <li>PlateArmor</li>
+        </prerequisites>
+        <researchViewX>0.00</researchViewX>
+        <researchViewY>3.00</researchViewY>
+        <tab>ESCP_Faction_Research</tab>
+    </ResearchProjectDef>
+
+</Defs>
